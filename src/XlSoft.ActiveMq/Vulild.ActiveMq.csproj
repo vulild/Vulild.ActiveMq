@@ -13,7 +13,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Ionic.Zlib" Version="2020.422.1611.21" />
+    <PackageReference Include="Vulild.Ionic.Zlib" Version="2020.520.1621" />
   </ItemGroup>
 
   <ItemGroup>
