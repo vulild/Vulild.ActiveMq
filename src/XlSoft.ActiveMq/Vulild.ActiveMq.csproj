@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>2020.0520.1627</Version>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Ionic.Zlib" Version="2020.422.1611.21" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\XlSoft.NMS\Vulild.NMS.csproj" />
+  </ItemGroup>
+
+</Project>

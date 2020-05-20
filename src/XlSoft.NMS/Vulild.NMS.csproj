@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>2020.0520.1627</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="nms-api.csproj" />
+  </ItemGroup>
+
+</Project>
